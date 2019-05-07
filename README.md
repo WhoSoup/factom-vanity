@@ -21,7 +21,8 @@ Stop the application with `Ctrl+C`.
 I recommend piping all output to a file so that you can review it later. 
 
 Example of an input text file:
-```test
+```
+test
 factom
 vanity
 ```
