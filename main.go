@@ -28,7 +28,7 @@ func readFile(path string) []string {
 }
 
 func main() {
-	sleep := flag.Uint("sleep", 50, "number of microseconds to sleep between hashes")
+	sleep := flag.Uint("sleep", 250, "number of microseconds to sleep between hashes")
 	conc := flag.Uint("threads", 2, "amount of concurrent goroutines that should run at the same time")
 	file := flag.String("file", "", "input file")
 
